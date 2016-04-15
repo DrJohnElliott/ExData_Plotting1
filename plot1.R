@@ -2,6 +2,7 @@
 #       Week 1 Class Project
 #       John Elliott 4/15/2016
 
+
 #Read data into envioroment
         tempData <- read.table("household_power_consumption.txt", sep= ";", header = TRUE,na.strings = "?" )
         myData <- rbind(subset(tempData, Date=="1/2/2007"),subset(tempData, Date=="2/2/2007"))
